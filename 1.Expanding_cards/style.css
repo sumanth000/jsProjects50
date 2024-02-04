@@ -1,0 +1,47 @@
+.body {
+    
+    font-family: 'Muli', sans-serif;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.panel {
+    margin: 20px;
+    height: 80vh;
+
+    flex: 0.1;
+    border-radius: 20px;
+    
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    transition: all 700ms ease-in 0s;
+
+}
+h3{
+ 
+    opacity: 0;
+}
+
+.panel.active{
+    flex:0.8;
+}
+
+
+.panel.active h3{
+    color:azure;
+    opacity:1
+
+}
